@@ -21,6 +21,6 @@ public class Converter {
         boolean passed1 = expected == out1;
         boolean passed2 = expected == out2;
         System.out.println("140 rubles are 2. Test result : " + passed1);
-        System.out.println("120 rubles are 2. Test result : " + passed1);
+        System.out.println("120 rubles are 2. Test result : " + passed2);
     }
 }
