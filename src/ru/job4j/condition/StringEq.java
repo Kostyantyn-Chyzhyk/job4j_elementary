@@ -2,8 +2,11 @@ package ru.job4j.condition;
 
 public class StringEq {
     public static boolean check(String login) {
-        String root = new String("root");
-        boolean access = root == login;
+        String root = new String("your_name");
+        boolean access = false;
+        if (login.equals(root)) {
+            return true;
+        }
         return access;
     }
 
